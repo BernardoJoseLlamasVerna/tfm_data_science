@@ -1,0 +1,32 @@
+1.- Crear una carpeta que se llame Electric_Demand_refactor (TODO)
+2.- Establecer la siguiente estructura de carpetas (TODO)
+- data
+-- electric_demand_data
+-- temperature_data
+-- final_datasets
+--- distribución mensual
+--- distribución diaria
+---- distribución diaria sin datos exógenos
+---- distribución diaria con días de la semana y festivos
+---- distribución diaria con días de la semana, festivos y temperatura
+---- distribución diaria con días de la semana, festivos, temperatura y estacionalidad
+
+- Electric_Demand_Analysis_Spain_2014_2021 (un solo notebook)
+-- EDA (Exploratory Data Analysis): relación entre las variables con la variable objeto de estudio.
+--- Influencia de la temperatura en la demanda
+-- Análisis de la serie temporal: estacionalidad, tendencia, ACF y PCF
+-- Feature Engineering
+-- Modelos
+--- HW
+--- SARIMAX
+--- XGBoost
+--- Prophet
+--- Forecasting de cada Modelo
+--- Comparativa métricas modelos
+--Conclusiones
+
+- Modelos
+-- HW
+-- SARIMAX
+-- XGBoost
+-- Prophet
