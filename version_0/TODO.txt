@@ -30,3 +30,43 @@
 -- SARIMAX
 -- XGBoost
 -- Prophet
+
+---------------------------
+
+## 2. Datos Horarios
+### Versión 1: datos horarios
+### Versión 2: con días de la semana y festivos
+#### a) Día de la semana:
+#### b) Día laboral o festivo
+
+## 3) Datos Diarios (con días de la semana y festivos)
+
+## 4) Días de la semana, Festivos y Temperatura
+### a) Distribución Horaria
+### b) Distribución Diaria
+
+## 5) Días de la semana, Festivos, Temperatura y Estacionalidad (verano/invierno)
+### a) Distribución Horaria
+### b) Distribución Diaria
+
+## 6) Días de la semana, Festivos, Temperatura y Estacionalidad (01/01/2014 - 28/02/2022)
+
+## 8) Datos diarios (01/03/2022 - 31/03/2022)
+
+
+## 2. Datos Horarios
+### 2.1. Extracción de datos horarios
+### 2.2. Con días de la semana y festivos
+#### 2.2.1. Días de la semana:
+#### 2.2.2. Día laboral o festivo
+### 2.3. Con días de la semana, festivos y temperatura
+### 2.4. Con días de la semana, festivos, temperatura y estacionalidad (verano/invierno)
+
+## 3. Datos Diarios
+### 3.1. Extracción de datos diarios
+### 3.2. Con días de la semana, festivos y temperatura
+### 3.3. Con días de la semana, festivos, temperatura y estacionalidad (verano/invierno)
+
+## 4. Dataset con días de la semana, festivos, temperatura y estacionalidad (01/01/2014 - 28/02/2022)
+
+## 5. Datos diarios (01/03/2022 - 31/03/2022)
