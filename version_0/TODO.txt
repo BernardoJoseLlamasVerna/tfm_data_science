@@ -33,40 +33,74 @@
 
 ---------------------------
 
-## 2. Datos Horarios
-### Versión 1: datos horarios
-### Versión 2: con días de la semana y festivos
-#### a) Día de la semana:
-#### b) Día laboral o festivo
+# Análisis de la Demanda Eléctrica en España (2014-2021)
 
-## 3) Datos Diarios (con días de la semana y festivos)
+## Abstract
 
-## 4) Días de la semana, Festivos y Temperatura
-### a) Distribución Horaria
-### b) Distribución Diaria
+## 0. Importación de librerías
+(incluir funciones del principio para tratar datos? revisar)
 
-## 5) Días de la semana, Festivos, Temperatura y Estacionalidad (verano/invierno)
-### a) Distribución Horaria
-### b) Distribución Diaria
+## 1. Análisis Exploratorio de Datos
+### 1.1. Demanda Eléctrica como serie temporal
+#### 1.1.1. Distribución mensual de la demanda eléctrica
+#### 1.1.2. Distribución diaria de la demanda eléctrica
+#### 1.1.3. Influencia de los festivos sobre la demanda eléctrica
+#### 1.1.4. Influencia de la temperatura
 
-## 6) Días de la semana, Festivos, Temperatura y Estacionalidad (01/01/2014 - 28/02/2022)
+### 1.2. Análisis de correlación de variables
+#### 1.2.1. Correlación de variables
+#### 1.2.2. Contraste de hipótesis (?¿)
+#### 1.2.3. Expectativas de resultados
 
-## 8) Datos diarios (01/03/2022 - 31/03/2022)
+## 2. Modelizado
+### 2.1. Holt-Winters
+#### 2.1.1. Holt-Winters mensual
+#### 2.1.2. Holt-Winters diario
 
+### 2.2. Sarimax
+#### 2.2.1. Sarimax sin variables exógenas
+#### 2.2.2. Sarimax con working_day
+#### 2.2.3. Sarimax con working_day y week_day
+#### 2.2.4. Sarimax con working_day, week_day y temperatura
+#### 2.2.5. Sarimax con working_day, week_day, temperatura y estacionalidad
 
-## 2. Datos Horarios
-### 2.1. Extracción de datos horarios
-### 2.2. Con días de la semana y festivos
-#### 2.2.1. Días de la semana:
-#### 2.2.2. Día laboral o festivo
-### 2.3. Con días de la semana, festivos y temperatura
-### 2.4. Con días de la semana, festivos, temperatura y estacionalidad (verano/invierno)
+### 2.3. XGBoost
+#### 2.3.1. XGBoost sin variables exógenas
+#### 2.3.2. XGBoost con working_day
+#### 2.3.3. XGBoost con working_day y week_day
+#### 2.3.4. XGBoost con working_day, week_day y temperatura
+#### 2.3.5. XGBoost con working_day, week_day, temperatura y estacionalidad
 
-## 3. Datos Diarios
-### 3.1. Extracción de datos diarios
-### 3.2. Con días de la semana, festivos y temperatura
-### 3.3. Con días de la semana, festivos, temperatura y estacionalidad (verano/invierno)
+### 2.4. Prophet
+#### 2.4.1. Prophet sin variables exógenas
+#### 2.4.2. Prophet con working_day
+#### 2.4.3. Prophet con working_day y week_day
+#### 2.4.4. Prophet con working_day, week_day y temperatura
+#### 2.4.5. Prophet con working_day, week_day, temperatura y estacionalidad
 
-## 4. Dataset con días de la semana, festivos, temperatura y estacionalidad (01/01/2014 - 28/02/2022)
+### 2.4. Prophet
+#### 2.4.1. Prophet sin variables exógenas
+#### 2.4.2. Prophet con working_day
+#### 2.4.3. Prophet con working_day y week_day
+#### 2.4.4. Prophet con working_day, week_day y temperatura
+#### 2.4.5. Prophet con working_day, week_day, temperatura y estacionalidad
 
-## 5. Datos diarios (01/03/2022 - 31/03/2022)
+### 2.5. LSTM
+#### 2.5.1. LSTM sin variables exógenas
+#### 2.5.2. LSTM con working_day
+#### 2.5.3. LSTM con working_day y week_day
+#### 2.5.4. LSTM con working_day, week_day y temperatura
+#### 2.5.5. LSTM con working_day, week_day, temperatura y estacionalidad
+
+### 2.6. LSTM+Prophet
+#### 2.6.1. LSTM+Prophet sin variables exógenas
+#### 2.6.2. LSTM+Prophet con working_day
+#### 2.6.3. LSTM+Prophet con working_day y week_day
+#### 2.6.4. LSTM+Prophet con working_day, week_day y temperatura
+#### 2.6.5. LSTM+Prophet con working_day, week_day, temperatura y estacionalidad
+
+## 3. Comparativa métricas de modelos
+
+## 4. Comparativa de predicciones de los modelos
+
+## 5. Conclusiones
