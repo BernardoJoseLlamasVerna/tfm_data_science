@@ -33,6 +33,10 @@
 
 ---------------------------
 
+IMPORTANTE:
+Seguir este artículo:
+https://towardsdatascience.com/comprehensive-time-series-exploratory-analysis-78bf40d16083
+
 # Análisis de la Demanda Eléctrica en España (2014-2021)
 
 ## Abstract
@@ -43,7 +47,13 @@
 ## 1. Análisis Exploratorio de Datos
 ### 1.1. Demanda Eléctrica como serie temporal
 #### 1.1.1. Distribución mensual de la demanda eléctrica
+------ TODO: Ver en qué meses hay mayores valores de demanda (ver apartado Seasonality del artículo) 
+------ TODO: Añadir estacionalidad, estacionariedad, ACF y PACF
+
 #### 1.1.2. Distribución diaria de la demanda eléctrica
+------ TODO: Ver en qué días y horas hay mayores valores de demanda (ver apartado Seasonality del artículo) 
+------ TODO: Añadir estacionalidad, estacionariedad, ACF y PACF (para días y horas)
+
 #### 1.1.3. Influencia de los festivos sobre la demanda eléctrica
 #### 1.1.4. Influencia de la temperatura
 
@@ -63,6 +73,7 @@
 #### 2.2.3. Sarimax con working_day y week_day
 #### 2.2.4. Sarimax con working_day, week_day y temperatura
 #### 2.2.5. Sarimax con working_day, week_day, temperatura y estacionalidad
+----- TODO: La serie tiene que ser estacionaria (seguir el ejemplo del artículo de los casos posibles según los resultados de KPSS y ADF)
 
 ### 2.3. XGBoost
 #### 2.3.1. XGBoost sin variables exógenas
